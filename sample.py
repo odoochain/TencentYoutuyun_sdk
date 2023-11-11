@@ -54,7 +54,7 @@ session_id = ""
 
 #id card ocr: use local id card image
 retidcardocr = youtu.idcardocr('./idcard_1.jpg', data_type = 0, card_type = 2)
-print retidcardocr
+print(retidcardocr)
 
 #id card ocr: use url id card image
 #retidcardocr = youtu.idcardocr('http://xxx.jpg', data_type = 1, card_type = 0)
